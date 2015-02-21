@@ -13,11 +13,23 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\genFit.html">
+      <PackagePath>genFit.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\tips.html">
+      <PackagePath>tips.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\vid.html">
       <PackagePath>vid.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\yourwrkout.html">
+      <PackagePath>yourwrkout.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\vid.html">
+      <PackagePath>www\vid.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -57,6 +69,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\img\Thumbs.db">
+      <PackagePath>www\img\Thumbs.db</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>

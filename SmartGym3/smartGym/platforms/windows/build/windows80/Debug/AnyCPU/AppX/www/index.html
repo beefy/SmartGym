@@ -31,31 +31,16 @@
         
         <script>
             function vidClicked() {
-                document.location.href = "com.smart.gym/www/vid.html";
+                window.location.replace("vid.html");
             }
 
             function genfitClicked() {
-                mainScreen.visible = false;
-                vidScreen.visible = false;
-                genfitScreen.visible = true;
-                yourwrkoutScreen.visible = false;
-                tipsScreen.visible = false;
             }
 
             function yourwrkoutClicked() {
-                mainScreen.visible = false;
-                vidScreen.visible = false;
-                genfitScreen.visible = false;
-                yourwrkoutScreen.visible = true;
-                tipsScreen.visible = false;
             }
 
             function tipsClicked() {
-                mainScreen.visible = false;
-                vidScreen.visible = false;
-                genfitScreen.visible = false;
-                yourwrkoutScreen.visible = false;
-                tipsScreen.visible = true;
             }
 
         </script>

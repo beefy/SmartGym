@@ -75,7 +75,9 @@
     <AppxManifest Include="package.windows80.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="..\www\vid.html" />
     <Content Include="images\*.png" Exclude="images\*.scale-240.*" />
+    <Content Include="images\logo.png" />
     <None Include="CordovaApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

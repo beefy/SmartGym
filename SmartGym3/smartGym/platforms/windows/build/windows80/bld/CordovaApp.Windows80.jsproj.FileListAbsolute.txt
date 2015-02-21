@@ -7,3 +7,16 @@ C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build
 C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build\windows80\bld\pri.resfiles
 C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build\windows80\bld\LanguageQualifiers.txt
 C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build\windows80\bld\ProjectArchitectures.txt
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\CordovaApp.Windows80.build.appxrecipe
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\priconfig.xml
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\layout.resfiles
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\resources.resfiles
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\pri.resfiles
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\LanguageQualifiers.txt
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\ProjectArchitectures.txt
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\priconfig.xml.intermediate
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\layout.resfiles.intermediate
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\resources.resfiles.intermediate
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\bld\pri.resfiles.intermediate

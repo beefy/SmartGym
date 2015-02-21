@@ -13,72 +13,80 @@
     <RegisteredVersion>0.0.1.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-21T18:56:19.064</Modified>
+      <Modified>2015-02-21T20:33:12.597</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\vid.html">
+      <PackagePath>vid.html</PackagePath>
+      <Modified>2015-02-21T20:30:12.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2015-02-21T20:33:08.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2015-02-21T18:28:22.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.076</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.079</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <Modified>2015-02-21T18:45:24.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\img\logo.png">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\img\logo.png">
       <PackagePath>www\img\logo.png</PackagePath>
       <Modified>2015-02-21T18:47:47.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\cordova.js">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
       <Modified>2015-02-21T18:47:47.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\cordova_plugins.js">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
       <Modified>2015-02-21T18:47:47.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\js\index.js">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\js\index.js">
       <PackagePath>www\js\index.js</PackagePath>
-      <Modified>2015-02-21T18:47:47.536</Modified>
+      <Modified>2015-02-21T20:15:13.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\css\index.css">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-02-21T18:47:47.531</Modified>
+      <Modified>2015-02-21T19:51:37.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\www\index.html">
-      <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-02-21T18:47:47.532</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
       <Modified>2015-02-21T18:47:47.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-21T18:56:19.003</Modified>
+      <Modified>2015-02-21T20:33:12.557</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

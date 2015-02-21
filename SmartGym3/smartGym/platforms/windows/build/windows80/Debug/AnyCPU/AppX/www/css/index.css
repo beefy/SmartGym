@@ -113,3 +113,32 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.logohead {
+    width:60%;
+    margin-left:20%;
+}
+
+.btn {
+    width:35%;
+    margin-bottom:2%;
+    margin-left:7.25%;
+    margin-right:7.25%;
+}
+
+#btn1 {
+    background:#b200ff;
+}
+
+#btn2 {
+    background:#4B946A;
+}
+
+#btn3 {
+    background:#ff6a00;
+}
+
+#btn4 {
+    background:#ffd800;
+}
+

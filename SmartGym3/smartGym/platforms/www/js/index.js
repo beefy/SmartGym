@@ -45,9 +45,41 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+
+    vidClicked: function() {
+        mainScreen.visible = false;
+        vidScreen.visible = true;
+        genfitScreen.visible = false;
+        youtwrkoutScreen.visible = false;
+        tipsScreen.visible = false;
+    },
+
+    genfitClicked: function () {
+        mainScreen.visible = false;
+        vidScreen.visible = false;
+        genfitScreen.visible = true;
+        youtwrkoutScreen.visible = false;
+        tipsScreen.visible = false;
+    },
+
+    yourwrkoutClicked: function () {
+        mainScreen.visible = false;
+        vidScreen.visible = false;
+        genfitScreen.visible = false;
+        youtwrkoutScreen.visible = true;
+        tipsScreen.visible = false;
+    },
+
+    tipsClicked: function () {
+        mainScreen.visible = false;
+        vidScreen.visible = false;
+        genfitScreen.visible = false;
+        youtwrkoutScreen.visible = false;
+        tipsScreen.visible = true;
     }
+
+
 };
 
 app.initialize();
-
-

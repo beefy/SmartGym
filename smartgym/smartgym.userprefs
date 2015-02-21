@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="smartgym\smartgym.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="smartgym\Properties\AndroidManifest.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.smartgym MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

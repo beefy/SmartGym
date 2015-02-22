@@ -7,6 +7,8 @@
 
 namespace Microsoft.Samples.Kinect.BodyBasics
 {
+    using System.Net;
+    using System.Text;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
@@ -30,6 +32,7 @@ namespace Microsoft.Samples.Kinect.BodyBasics
     /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
+        int iterations;
         bool state = false;
         double angleOld = 180;
         double angleNew = 180;
@@ -393,14 +396,9 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             CameraSpacePoint point1 = new CameraSpacePoint();
             CameraSpacePoint point2 = new CameraSpacePoint();
             CameraSpacePoint point3 = new CameraSpacePoint();
-            CameraSpacePoint handpt = new CameraSpacePoint();
-            CameraSpacePoint shouldpt = new CameraSpacePoint();
             Boolean point1init = false;
             Boolean point2init = false;
             Boolean point3init = false;
-            Boolean handptinit = false;
-            Boolean shouldptinit = false;
-            Boolean isholding = false;
             double angle = 0;
             double check = 0;
 
@@ -456,8 +454,8 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                                     //Debug.WriteLine("angle: " + angle);
                                     //Debug.WriteLine("state: " + state);
                                     //Debug.WriteLine("check: " + check);
-                                    
-                                
+
+                                    if (counter >= 5) post();
                             }
                         }
                         else if(angle > 95)
@@ -468,8 +466,6 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                         point1init = false;
                         point2init = false;
                         point3init = false;
-
-                    
                         
                  }
                 }
@@ -643,36 +639,32 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             this.StatusText = this.kinectSensor.IsAvailable ? Properties.Resources.RunningStatusText
                                                             : Properties.Resources.SensorNotAvailableStatusText;
         }
-
-        void upload()
+        private void post()
         {
-            var connectionString = "mongodb://localhost";
-            var client = new MongoClient(connectionString);
-            var server = client.GetServer();
-            var database = server.GetDatabase("test");
-            var collection = database.GetCollection<Entity>("entities");
+            Guid id = new Guid();
+            int sets = counter;
+            DateTime timestamp = DateTime.Now;
 
-            var entity = new Entity { Name = "Tom" };
-            collection.Insert(entity);
-            var id = entity.Id;
+            var request = (HttpWebRequest)WebRequest.Create("http://localhost/8000");
 
-            var query = Query<Entity>.EQ(e => e.Id, id);
-            entity = collection.FindOne(query);
+            var postData = "thing1=" + id;
+            postData += "&thing2=" + sets;
+            postData += "&thing3=" + timestamp;
+            var data = Encoding.ASCII.GetBytes(postData);
 
-            entity.Name = "Dick";
-            collection.Save(entity);
+            request.Method = "POST";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentLength = data.Length;
 
-            var update = Update<Entity>.Set(e => e.Name, "Harry");
-            collection.Update(query, update);
+            using (var stream = request.GetRequestStream())
+            {
+                stream.Write(data, 0, data.Length);
+            }
 
-            collection.Remove(query);
+            var response = (HttpWebResponse)request.GetResponse();
 
+            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
         }
     }
 
-    public class Entity
-    {
-        public ObjectId Id { get; set; }
-        public string Name { get; set; }
-    }
 }

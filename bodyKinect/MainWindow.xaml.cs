@@ -644,13 +644,13 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             try
             {
             Guid id = new Guid();
-            int sets = counter;
+            int[] sets = {counter};
             DateTime timestamp = DateTime.Now;
             var request = (HttpWebRequest)WebRequest.Create("http://localhost:8000");
 
             var postData = "thing1=" + id;
             postData += "&thing2=" + sets;
-            postData += "&thing3=" + timestamp;
+            postData += "&thing3=" + timestamp.ToString();
             var data = Encoding.ASCII.GetBytes(postData);
 
             request.Method = "POST";

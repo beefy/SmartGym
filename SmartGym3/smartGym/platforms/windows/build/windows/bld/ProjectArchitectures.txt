@@ -1,0 +1,1 @@
+C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\CordovaApp.Windows.jsproj;neutral

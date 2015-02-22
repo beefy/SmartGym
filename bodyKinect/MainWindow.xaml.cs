@@ -455,7 +455,7 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                                     //Debug.WriteLine("state: " + state);
                                     //Debug.WriteLine("check: " + check);
 
-                                    if (counter >= 5) post();
+                                    if (counter >= 2) post();
                             }
                         }
                         else if(angle > 95)
@@ -641,11 +641,12 @@ namespace Microsoft.Samples.Kinect.BodyBasics
         }
         private void post()
         {
+            try
+            {
             Guid id = new Guid();
             int sets = counter;
             DateTime timestamp = DateTime.Now;
-
-            var request = (HttpWebRequest)WebRequest.Create("http://localhost/8000");
+            var request = (HttpWebRequest)WebRequest.Create("http://localhost:8000");
 
             var postData = "thing1=" + id;
             postData += "&thing2=" + sets;
@@ -661,9 +662,15 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                 stream.Write(data, 0, data.Length);
             }
 
-            var response = (HttpWebResponse)request.GetResponse();
+                var response = (HttpWebResponse)request.GetResponse();
 
-            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+                var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+            }
+            catch (Exception e)
+            {
+
+            }
         }
     }
 

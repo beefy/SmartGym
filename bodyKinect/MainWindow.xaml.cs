@@ -7,6 +7,7 @@
 
 namespace Microsoft.Samples.Kinect.BodyBasics
 {
+    using System.Threading;
     using System.Net;
     using System.Text;
     using System;
@@ -404,6 +405,11 @@ namespace Microsoft.Samples.Kinect.BodyBasics
 
             int i = 0;
             // Draw the bones
+
+
+            Thread t = new Thread(new ThreadStart(ThreadProc));
+
+            t.Start();
             foreach (var bone in this.bones)
             {
                 //joints[16 or 17 or 18].position -> returns x, y, z coordinates
@@ -455,7 +461,10 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                                     //Debug.WriteLine("state: " + state);
                                     //Debug.WriteLine("check: " + check);
 
-                                    if (counter >= 2) post();
+                                    if (t.IsAlive)
+                                        t.Abort();
+                                    t = new Thread(new ThreadStart(ThreadProc));
+                                    t.Start();
                             }
                         }
                         else if(angle > 95)
@@ -492,6 +501,11 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                     }
                 }
             }
+
+        void ThreadProc()
+        {
+            MessageBox.Show(counter.ToString());
+        }
         
         /// <summary>
         /// Draws one bone of a body (joint to joint)
@@ -643,14 +657,18 @@ namespace Microsoft.Samples.Kinect.BodyBasics
         {
             try
             {
-            Guid id = new Guid();
+
             int[] sets = {counter};
+            Guid id = new Guid();
             DateTime timestamp = DateTime.Now;
             var request = (HttpWebRequest)WebRequest.Create("http://localhost:8000");
+            Debug.WriteLine(sets.ToString()); Debug.WriteLine(id);
+            Debug.WriteLine(timestamp);
+
 
             var postData = "thing1=" + id;
-            postData += "&thing2=" + sets;
-            postData += "&thing3=" + timestamp.ToString();
+            postData += "&thing2=" + sets.ToString();
+            postData += "&thing3=" + timestamp;
             var data = Encoding.ASCII.GetBytes(postData);
 
             request.Method = "POST";

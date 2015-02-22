@@ -17,6 +17,12 @@ namespace Microsoft.Samples.Kinect.BodyBasics
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
     using Microsoft.Kinect;
+    using MongoDB.Bson;
+    using MongoDB.Driver;
+    using MongoDB.Driver.Builders;
+    using MongoDB.Driver.GridFS;
+    using MongoDB.Driver.Linq;
+
 
 
     /// <summary>
@@ -637,5 +643,36 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             this.StatusText = this.kinectSensor.IsAvailable ? Properties.Resources.RunningStatusText
                                                             : Properties.Resources.SensorNotAvailableStatusText;
         }
+
+        void upload()
+        {
+            var connectionString = "mongodb://localhost";
+            var client = new MongoClient(connectionString);
+            var server = client.GetServer();
+            var database = server.GetDatabase("test");
+            var collection = database.GetCollection<Entity>("entities");
+
+            var entity = new Entity { Name = "Tom" };
+            collection.Insert(entity);
+            var id = entity.Id;
+
+            var query = Query<Entity>.EQ(e => e.Id, id);
+            entity = collection.FindOne(query);
+
+            entity.Name = "Dick";
+            collection.Save(entity);
+
+            var update = Update<Entity>.Set(e => e.Name, "Harry");
+            collection.Update(query, update);
+
+            collection.Remove(query);
+
+        }
+    }
+
+    public class Entity
+    {
+        public ObjectId Id { get; set; }
+        public string Name { get; set; }
     }
 }

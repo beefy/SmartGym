@@ -26,3 +26,9 @@ C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\obj\Debug\BodyBasics-
 C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\obj\Debug\BodyBasics-WPF.g.resources
 C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\obj\Debug\Microsoft.Samples.Kinect.BodyBasics.Properties.Resources.resources
 C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\obj\Debug\BodyBasics-WPF.csproj.GenerateResource.Cache
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Bson.dll
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Driver.dll
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Bson.pdb
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Bson.xml
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Driver.pdb
+C:\Users\Nathaniel\Documents\Projects\SmartGym2\bodyKinect\bin\AnyCPU\Debug\MongoDB.Driver.xml

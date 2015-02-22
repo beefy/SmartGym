@@ -27,7 +27,7 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
     </head>
-    <body>        
+    <body class="home">        
         
         <script>
             function vidClicked() {
@@ -35,24 +35,30 @@
             }
 
             function genfitClicked() {
+                window.location.replace("genfit.html");
             }
 
             function yourwrkoutClicked() {
+                window.location.replace("yourworkout.html");
             }
 
             function tipsClicked() {
+                window.location.replace("tips.html");
             }
+  
 
         </script>
         
         <header>
            <img class="logohead" src="../../../images/logo.png" />
-        </header>
-
-        <input class="btn" id="btn1" type="image" src="../../../images/logo.png" onclick="vidClicked()"/>
-        <input class="btn" id="btn2" type="image" src="../../../images/logo.png" onclick="genfitClicked()"/>
-        <input class="btn" id="btn3" type="image" src="../../../images/logo.png" onclick="yourwrkoutClicked()"/>
-        <input class="btn" id="btn4" type="image" src="../../../images/logo.png" onclick="tipsClicked()"/>
-
+        </header>  
+        <div class="topdiv">
+           <img class="btn" id="btn1" src="../../../images/play.png" onclick="vidClicked()"/>
+           <img class="btn" id="btn2" src="../../../images/genfit.png" onclick="genfitClicked()" />
+        </div>
+        <div class="topdiv">
+           <img class="btn" id="btn3" src="../../../images/yourwrkout.png" onclick="yourwrkoutClicked()" />
+           <img class="btn" id="btn4" src="../../../images/tips.png" onclick="tipsClicked()" />
+        </div>
     </body>
 </html>

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-22T07:25:35.264</Modified>
+      <Modified>2015-02-22T09:21:06.511</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-02-22T07:25:33.452</Modified>
+      <Modified>2015-02-22T09:21:04.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\genFit.html">
       <PackagePath>genFit.html</PackagePath>
@@ -34,7 +34,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\tips.html">
       <PackagePath>tips.html</PackagePath>
-      <Modified>2015-02-21T21:59:38.799</Modified>
+      <Modified>2015-02-22T07:54:34.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\vid.html">
       <PackagePath>vid.html</PackagePath>
@@ -54,7 +54,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\tips.html">
       <PackagePath>www\tips.html</PackagePath>
-      <Modified>2015-02-22T06:50:11.832</Modified>
+      <Modified>2015-02-22T09:19:14.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\vid.html">
       <PackagePath>www\vid.html</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-22T07:25:35.219</Modified>
+      <Modified>2015-02-22T09:21:06.467</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

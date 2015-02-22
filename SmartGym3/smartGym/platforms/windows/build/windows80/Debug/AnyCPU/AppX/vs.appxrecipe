@@ -16,10 +16,18 @@
     <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-21T22:18:21.073</Modified>
+      <Modified>2015-02-21T23:33:21.622</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\css\vid.css">
+      <PackagePath>vid.css</PackagePath>
+      <Modified>2015-02-21T22:39:08.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2015-02-21T22:49:15.318</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\genFit.html">
       <PackagePath>genFit.html</PackagePath>
       <Modified>2015-02-21T21:59:41.506</Modified>
@@ -30,7 +38,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\vid.html">
       <PackagePath>vid.html</PackagePath>
-      <Modified>2015-02-21T22:04:32.178</Modified>
+      <Modified>2015-02-21T22:29:59.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\www\yourwrkout.html">
       <PackagePath>yourwrkout.html</PackagePath>
@@ -38,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-02-21T21:54:03.646</Modified>
+      <Modified>2015-02-21T22:50:57.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\vid.html">
       <PackagePath>www\vid.html</PackagePath>
@@ -47,6 +55,10 @@
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <Modified>2015-02-21T18:28:22.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\play.png">
+      <PackagePath>images\play.png</PackagePath>
+      <Modified>2015-02-21T17:03:56.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
@@ -92,10 +104,6 @@
       <PackagePath>www\js\index.js</PackagePath>
       <Modified>2015-02-21T20:15:13.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\css\index.css">
-      <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-02-21T19:51:37.639</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\img\Thumbs.db">
       <PackagePath>www\img\Thumbs.db</PackagePath>
       <Modified>2015-02-21T20:52:56.396</Modified>
@@ -106,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-21T22:18:21.010</Modified>
+      <Modified>2015-02-21T23:33:21.560</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

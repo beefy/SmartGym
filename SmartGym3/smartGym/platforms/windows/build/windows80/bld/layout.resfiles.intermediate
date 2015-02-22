@@ -1,5 +1,6 @@
 config.xml
 images\logo.png
+images\play.png
 images\SplashScreen.scale-100.png
 images\Square150x150Logo.scale-100.png
 images\Square30x30Logo.scale-100.png
@@ -15,6 +16,7 @@ www\img\Thumbs.db
 www\index.html
 www\js\index.js
 www\vid.html
+vid.css
 genFit.html
 tips.html
 vid.html

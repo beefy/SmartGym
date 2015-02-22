@@ -75,12 +75,14 @@
     <AppxManifest Include="package.windows80.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="..\www\css\vid.css" />
     <Content Include="..\www\genFit.html" />
     <Content Include="..\www\tips.html" />
     <Content Include="..\www\vid.html" />
     <Content Include="..\www\yourwrkout.html" />
     <Content Include="images\*.png" Exclude="images\*.scale-240.*" />
     <Content Include="images\logo.png" />
+    <Content Include="images\play.png" />
     <None Include="CordovaApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

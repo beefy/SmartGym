@@ -124,6 +124,7 @@ h1 {
     margin-bottom:2%;
     margin-left:7.25%;
     margin-right:7.25%;
+    height:inherit;
 }
 
 #btn1 {
@@ -141,4 +142,22 @@ h1 {
 #btn4 {
     background:#ffd800;
 }
+
+/*#btndiv1 {
+    display:table-row-group;
+}
+
+#btndiv2 {
+    display:table-row-group;
+}
+
+#btndiv3 {
+    display:inline-block;
+}
+
+#btndiv4 {
+    display:inline-block;
+}*/
+
+
 

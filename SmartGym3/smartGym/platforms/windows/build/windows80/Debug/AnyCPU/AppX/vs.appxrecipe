@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-22T09:43:21.149</Modified>
+      <Modified>2015-02-22T13:54:43.028</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-22T09:43:21.100</Modified>
+      <Modified>2015-02-22T13:54:42.859</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

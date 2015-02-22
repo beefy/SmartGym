@@ -105,7 +105,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\genfit.html">
       <PackagePath>www\genfit.html</PackagePath>
-      <Modified>2015-02-22T12:44:24.845</Modified>
+      <Modified>2015-02-22T15:13:13.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>

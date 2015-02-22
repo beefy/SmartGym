@@ -25,6 +25,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)www\**" />
+    <Content Include="$(MSBuildThisFileDirectory)www\genfit.html" />
+    <Content Include="$(MSBuildThisFileDirectory)www\script.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)config.xml" />

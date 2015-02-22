@@ -16,8 +16,17 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\arrow.png">
+      <PackagePath>images\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\genfit.png">
+      <PackagePath>images\genfit.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\play.png">
+      <PackagePath>images\play.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
@@ -43,9 +52,15 @@
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\tips.png">
+      <PackagePath>images\tips.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\yourwrkout.png">
+      <PackagePath>images\yourwrkout.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\img\logo.png">
       <PackagePath>www\img\logo.png</PackagePath>
@@ -68,8 +83,14 @@
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\tips.html">
+      <PackagePath>www\tips.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\vid.html">
       <PackagePath>www\vid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\yourworkout.html">
+      <PackagePath>www\yourworkout.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>

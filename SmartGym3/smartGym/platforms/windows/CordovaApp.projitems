@@ -27,6 +27,8 @@
     <Content Include="$(MSBuildThisFileDirectory)www\**" />
     <Content Include="$(MSBuildThisFileDirectory)www\genfit.html" />
     <Content Include="$(MSBuildThisFileDirectory)www\script.js" />
+    <Content Include="$(MSBuildThisFileDirectory)www\tips.html" />
+    <Content Include="$(MSBuildThisFileDirectory)www\yourworkout.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)config.xml" />

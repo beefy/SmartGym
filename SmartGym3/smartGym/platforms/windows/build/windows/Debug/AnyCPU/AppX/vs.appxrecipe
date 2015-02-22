@@ -20,13 +20,25 @@
     <AppXManifest Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\build\windows\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-22T00:32:08.774</Modified>
+      <Modified>2015-02-22T03:11:00.116</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\arrow.png">
+      <PackagePath>images\arrow.png</PackagePath>
+      <Modified>2015-02-22T01:09:37.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\genfit.png">
+      <PackagePath>images\genfit.png</PackagePath>
+      <Modified>2015-02-22T00:55:50.536</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <Modified>2015-02-21T23:42:09.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\play.png">
+      <PackagePath>images\play.png</PackagePath>
+      <Modified>2015-02-22T00:55:50.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
@@ -58,10 +70,18 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-02-21T23:42:09.185</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\tips.png">
+      <PackagePath>images\tips.png</PackagePath>
+      <Modified>2015-02-22T00:55:50.537</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-02-21T23:42:09.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\images\yourwrkout.png">
+      <PackagePath>images\yourwrkout.png</PackagePath>
+      <Modified>2015-02-22T00:55:50.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\img\logo.png">
       <PackagePath>www\img\logo.png</PackagePath>
@@ -77,23 +97,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\script.js">
       <PackagePath>www\script.js</PackagePath>
-      <Modified>2015-02-22T00:37:32.425</Modified>
+      <Modified>2015-02-22T01:15:17.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-02-22T00:25:53.242</Modified>
+      <Modified>2015-02-22T03:10:58.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\genfit.html">
       <PackagePath>www\genfit.html</PackagePath>
-      <Modified>2015-02-22T00:07:24.473</Modified>
+      <Modified>2015-02-22T03:06:59.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-02-22T00:37:56.694</Modified>
+      <Modified>2015-02-22T02:46:52.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\tips.html">
+      <PackagePath>www\tips.html</PackagePath>
+      <Modified>2015-02-22T03:10:59.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\vid.html">
       <PackagePath>www\vid.html</PackagePath>
-      <Modified>2015-02-22T00:37:52.791</Modified>
+      <Modified>2015-02-22T01:30:43.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\www\yourworkout.html">
+      <PackagePath>www\yourworkout.html</PackagePath>
+      <Modified>2015-02-22T03:08:42.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
@@ -101,7 +129,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Derek\Desktop\temprepo\SmartGym3\smartGym\platforms\windows\build\windows\Debug\AnyCPU\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-22T00:32:08.646</Modified>
+      <Modified>2015-02-22T03:10:59.975</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -16,7 +16,7 @@
     <AppXManifest Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-22T15:04:27.585</Modified>
+      <Modified>2015-02-22T18:52:17.446</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -46,7 +46,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\genfit.html">
       <PackagePath>www\genfit.html</PackagePath>
-      <Modified>2015-02-22T09:43:19.234</Modified>
+      <Modified>2015-02-22T16:17:00.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathaniel\Documents\Projects\SmartGym2\SmartGym3\smartGym\platforms\windows\build\windows80\Debug\AnyCPU\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-22T15:04:27.536</Modified>
+      <Modified>2015-02-22T18:52:17.352</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
